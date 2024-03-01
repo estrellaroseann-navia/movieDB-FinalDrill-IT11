@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT11-Final Proj.</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="movie-poster.css">
+    <link rel="stylesheet" href="modal.css">
+</head>
+
+<body>
+    <header>
+        <h1>TARA NUOD!</h1>
+        <div id="search-container">
+            <input type="text" id="search" placeholder="Search Movies">
+            <button type="button" class="bnt-search" onclick="searchFunc()">Search</button>
+            <script src="search-func.js"></script>
+        </div>
+    </header>
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <div class="slide-img">
+            <div class="numbertext">1 / 3</div>
+            <img src="3.jpg" style="width:100%">
+        </div>
+  
+        <div class="slide-img">
+            <div class="numbertext">2 / 3</div>
+            <img src="2.jpg" style="width:100%">
+        </div>
+  
+        <div class="slide-img">
+            <div class="numbertext">3 / 3</div>
+            <img src="4.jpg" style="width:100%">
+        </div>
+    </div>
+    <br>
+    <script src="slideshow.js"></script>
+
+    <h1>Upcoming Movies</h1>
+
+    <div id="movie-list">
+        <!-- Movie posters and titles will be appended here -->
+    </div>
+    
+    <div id="movie-details">
+        <!-- Movie details will be displayed here -->
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

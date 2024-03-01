@@ -1,0 +1,26 @@
+#movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.movie-container {
+    text-align: center;
+}
+
+.movie-poster {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.movie-poster:hover {
+    color: rgba(147, 139, 139, 0.475);
+}
+
+.movie-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5px;
+    font-weight: bold;
+    color: white;
+}
